@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+}
+
+ul {
+    display: flex;
+    background-color: gray;
+    margin: 0px;
+}
+  
+li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li button {
+    border-radius: 10px;
+    border: 0px;
+}
+
+li button:hover {
+    background-color: rgb(227, 227, 227);
+    cursor: pointer;
+}
+
+#postContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+    width: 900px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+p {
+    font-size:  20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(194, 208, 227);
+}
+
+.active {
+    background-color: rgb(227, 227, 227);
+}
+
